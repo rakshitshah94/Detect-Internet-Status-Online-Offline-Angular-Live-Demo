@@ -1,0 +1,17 @@
+/**
+ * Author: Rakshit Shah
+ * Email: rakshitshah1994@gmail.com
+ * Link: https://medium.com/beingcoders/simple-way-to-fetch-the-internet-connection-status-for-your-angular-application-291d9ab34999?sk=5fd1a0ddfa5593ef97e6a6151e0416c7
+ */
+
+.status {
+  background-color: #11d411;
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+  transition: background-color 1s ease;
+}
+
+.status.offline {
+  background-color: rgb(231, 14, 14);
+}
